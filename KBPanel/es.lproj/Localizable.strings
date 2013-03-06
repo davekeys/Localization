@@ -60,12 +60,12 @@
 "Alert_4G_Off"="4G apagado";
 "Alert_LTE_On"="LTE encendido";
 "Alert_LTE_Off"="LTE apagado";
-"Alert_Airplane_On"="Modo avión encendido";
-"Alert_Airplane_Off"="Modo avión apagado";
+"Alert_Airplane_On"="Modo avión enc.";
+"Alert_Airplane_Off"="Modo avión apag.";
 "Alert_AutoLock_On"="%d minutos"; //"Auto-Lock after %d minutes" doesn't fit.
 "Alert_AutoLock_Off"="Nunca bloquear";
-"Alert_Bluetooth_On"="Bluetooth encendido";
-"Alert_Bluetooth_Off"="Bluetooth apagado";
+"Alert_Bluetooth_On"="Bluetooth enc.";
+"Alert_Bluetooth_Off"="Bluetooth apag-";
 "Alert_ClearBadge_Count"="Limpiados %d globos";
 "Alert_ClearBadge_Empty"="No hay globos"; //"No badges to be cleared" doesn't fit.
 "Alert_Data_On"="Datos encendidos";
@@ -87,12 +87,12 @@
 "Alert_VPN_NoConnection"="Sin VPN activa";
 "Alert_WiFi_On"="Wi-Fi encendida";
 "Alert_WiFi_Off"="Wi-Fi apagada";
-"LockSwitch_SlideToRespring"="reiniciar SpringBoard";
-"LockSwitch_SlideToReboot"="reiniciar";
-"LockSwitch_SlideToShutdown"="apagar";
+"LockSwitch_SlideToRespring"="Reiniciar SpringBoard";
+"LockSwitch_SlideToReboot"="Reiniciar dispositivo";
+"LockSwitch_SlideToShutdown"="Apagar";
 
-"ChargingView_RemainTime_HourAndMinutes"="%d h %02d m para completar";
-"ChargingView_RemainTime_Minutes"="%d minutos para completar"; //the more correct translation would end up making it go off the screen.
+"ChargingView_RemainTime_HourAndMinutes"="%d h %02d m comp.";
+"ChargingView_RemainTime_Minutes"="%d min para comp."; //the more correct translation would end up making it go off the screen.
 "ChargingView_RemainTime_Complete"="Carga completa.";
 "ChargingView_Disconnect"="Por favor desenchufar.";
 
