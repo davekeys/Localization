@@ -10,6 +10,8 @@
 
 //Butonlar
 "Button_3G"="3G";
+"Button_4G"="4G";
+"Button_LTE"="LTE";
 "Button_Airplane"="Uçak Modu";
 "Button_AutoLock"="Otomatik Kilit";
 "Button_Backlight"="Parlaklık";
@@ -33,15 +35,15 @@
 //Ana
 "home_view_title"="BatteryDoctorPro";
 "home_view_title_tabbar"="Modlar";
-"home_view_mode_outdoor"="Dışarda";
-"home_view_mode_indoor"="İçerde";
+"home_view_mode_outdoor"="Dışarıda";
+"home_view_mode_indoor"="İçeride";
 "home_view_mode_sleep"="Alarm";
 "home_view_hour"="saat";
-"home_view_minutes"="dakika";
+"home_view_minutes"="dk";
 "home_view_remained"="Batarya Ömrü";
 "home_view_battery_status"="Durum %d%%   %@";
 "navation_feedback"="Destek";
-"navation_app_version"="Versiyon";
+"navation_app_version"="Hakkında";
 "navation_bar_more"="Diğerleri";
 "navation_bar_control"="Liste";
 "home_view_change_mode"="Etkinleştirildi -  %@ - ";
@@ -59,8 +61,8 @@
 "home_quick_button_clean"="Hızlandırma";
 
 //Panel
-"panel_remain_time_minutes"="Batarya Ömrü %d dakika";
-"panel_remain_time_minutes_and_hour"="Batarya Ömrü %d saat %02d dakika";
+"panel_remain_time_minutes"="Batarya Ömrü %d dk";
+"panel_remain_time_minutes_and_hour"="Batarya Ömrü %d saat %02d dk";
 "panel_apply_button"="Modu Uygula";
 "panel_apply_noneed"="Seçili Mod";
 "panel_title"="Mod Ayarları";
@@ -70,8 +72,8 @@
 "charging_view_in_statge_1"="Yüksek/Hız";
 "charging_view_in_statge_2"="Devamlılık";
 "charging_view_in_statge_3"="Tamamlanma";
-"charging_view_time_hour_and_minutes"="%d saat %02d dakika";
-"charging_view_time_minutes"="%d dakika";
+"charging_view_time_hour_and_minutes"="%d saat %02d dk";
+"charging_view_time_minutes"="%d dk";
 "charging_view_time_to_charge"="%@";
 "charging_view_charging_remain_time"="%@";
 "charging_view_complete_no_need"="Batarya Dolu,\r\n Şarj Gerekli Değil.";
@@ -135,7 +137,7 @@
 "detail_view_last"="Son";
 "detail_view_health_mah"="Sağlık (mAh) ";
 "detail_view_health"="Sağlık";
-"detail_view_temperature"= "Derece";
+"detail_view_temperature"= "Sıcaklık";
 "detail_view_cycle"= "Cycle";
 
 "curve_not_enough_data"="Yeterli Veri Yok";
@@ -158,7 +160,7 @@
 "device_info_cell_ip"="IP Adresi";
 "device_info_system_boottime"="Boot Zamanı";
 "device_info_system_runtime"="Çalıştırma Zamanı";
-"device_info_system_runtime_format"="%d Gün %d Saat %d Dakika";
+"device_info_system_runtime_format"="%d Gün %d Saat %d dk";
 "device_info_no_network"="Kullanılmıyor.";
 "device_info_no_carrier"="Kullanılmıyor.";
 "device_info_jail_break_title"="Jailbroken";
@@ -215,17 +217,17 @@
 "intelligence_setting_auto_3g_setting"="İnternet";
 "intelligence_setting_auto_3g"="2G Kilidini Aktif Et";
 "intelligence_setting_auto_3g_delay"="Süre";
-"intelligence_setting_auto_3g_footer"="Cihaz bekleme moduna geçtiğinde güç tasarrufu \r\n sağlamak için 2G'ye geçer,kilit açıldığında ise otomatik\r\n olarak yeniden 3G'ye bağlanır";  
+"intelligence_setting_auto_3g_footer"="Cihaz Beklemede İken G.Tasarrufu İçin 2G Geçer,\r\n Beklemeden Çıkınca Otomatik Olarak 3G Açılır.";  
 
 "intelligence_setting_0_min"="Hemen";
-"intelligence_setting_1_min"="1 Dakika";
-"intelligence_setting_5_min"="5 Dakika";
-"intelligence_setting_10_min"="10 Dakika";
-"intelligence_setting_30_min"="30 Dakika";
+"intelligence_setting_1_min"="1 dk";
+"intelligence_setting_5_min"="5 dk";
+"intelligence_setting_10_min"="10 dk";
+"intelligence_setting_30_min"="30 dk";
 
 "intelligence_setting_low_battery_setting"="Düşük-Güç";
 "intelligence_setting_low_battery"="Düşük-Güç Ayarlarını Aktif Et";
-"intelligence_setting_low_battery_percent"="Batarya Seviyesi";
+"intelligence_setting_low_battery_percent"="Şarj Yüzdesi";
 "intelligence_setting_low_battery_footer"="Düşük-Güç'te İnternet Kapatılır.\r\n Ama Aramalar ve Mesaj Devredışı Kalmaz. ";
 
 "intelligence_setting_sleep_setting"="Uyku";
@@ -265,7 +267,7 @@
 "rankview_view_title"="İstatistikler";
 "usage_level"="%d Seviye";
 "usage_min_less"="%d sn";
-"usage_min"="%d Dakika";
+"usage_min"="%d dk";
 "usage_hour"="%d Saat";
 "usage_day"="%d Gün";
 "usage_second_ago"="%d sn Önce";
@@ -310,7 +312,7 @@
 "can_speed_free_title"="可提速:";
 "can_speed_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
 "btn_re_clean"="再清理一次";
-"btn_clean"="Shake it";
+"btn_clean"="Salla !";
 
 "scan_item_mem_text"="Bellek Taranıyor...";
 "scan_item_mem_end_text"="Tarama Tamamlandı.";
@@ -332,5 +334,3 @@
 "clean_result_text"="<font color='#6A6A6A' size=15>Başarı,Arttırıldı %@.</font>";
 "clean_btntitle_format"="<font color='#6A6A6A' size=16>Hızı Çok Yavaş, Şimdi Hızlandırın</font>";
 "clean_result_info_format"="<font color='#6A6A6A' size=15>%@, %@</font>";
-
-
