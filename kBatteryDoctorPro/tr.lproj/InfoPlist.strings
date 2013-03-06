@@ -1,0 +1,11 @@
+/* 
+   InfoPlist.strings
+   kBatteryDoctor
+
+   Created by plipala on 11-8-1.
+   Copyright 2011 ijinshan. All rights reserved.
+   Türkçeleþtirme JoKedR - Murat SAÐLAM
+   Mail JoKedR@hotmail.com
+ */
+
+"CFBundleDisplayName"="BatteryDoctor";
