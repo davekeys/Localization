@@ -1,0 +1,295 @@
+/* 
+  Localizable.strings
+  kBatteryDoctorPro
+
+  Translated by DoA(http://offree.net/)
+  Copyright (c) 2012年 iJinShan. All rights reserved.
+*/
+
+//Button
+"Button_3G"="3G";
+"Button_4G"="4G";
+"Button_LTE"="LTE";
+"Button_Airplane"="비행기";
+"Button_AutoLock"="자동잠금";
+"Button_Backlight"="밝기";
+"Button_Bluetooth"="블루투스";
+"Button_ClearBadge"="뱃지제거";
+"Button_Data"="데이타";
+"Button_Flashlight"="플래시";
+"Button_HomeButton"="홈";
+"Button_KillBackground"="작업삭제";
+"Button_Location"="위치";
+"Button_Mute"="소리";
+"Button_Reboot"="리부트";
+"Button_Respring"="리스프링";
+"Button_Rotation"="회전잠금";
+"Button_Shutdown"="끄기";
+"Button_SleepButton"="잠금화면";
+"Button_Uicache"="아이콘수정";
+"Button_VPN"="VPN";
+"Button_WiFi"="와이파이";
+
+//Home
+"home_view_title"="전지의사";
+"home_view_title_tabbar"="상태";
+"home_view_mode_outdoor"="외부";
+"home_view_mode_indoor"="내부";
+"home_view_mode_sleep"="알림";
+"home_view_hour"="시";
+"home_view_minutes"="분";
+"home_view_remained"="사용 가능 시간";
+"home_view_battery_status"="상태 %d%%   %@";
+"navation_feedback"="보고";
+"navation_app_version"="번호";
+"navation_bar_more"="기타";
+"navation_bar_control"="목록";
+"home_view_change_mode"="사용: %@";
+"home_view_change_airplane_on"=" 상태, 비행기 모드를 켰습니다. 따라서 폰과 메세지는 사용할 수 없습니다.";
+"home_view_change_airplane_off"=" 상태, 비행기 모드를 껐습니다. 따라서 폰과 메시지를 사용할 수 있습니다.";
+"home_view_change_data_on"=" 상태, 데이타 켜기";
+"home_view_change_data_off"=" 상태, 데이타 끄기";
+"home_view_change_wifi_on"=", 와이파이 켜기.";
+"home_view_change_wifi_off"=", 와이파이 켜기.";
+"home_view_complete_no_need"="충전할 필요 없음.";
+"home_view_complete_normal"="충전 가능.";
+"home_view_complete_complete"="완전 충전 가능.";
+"home_view_mode_changed"="충전됨";
+"home_quick_button_intelligence"="지능적";
+"home_quick_button_clean"="가속";
+
+//Panel
+"panel_remain_time_minutes"="배터리 남은량: %d 분";
+"panel_remain_time_minutes_and_hour"="배터리 남은량: %d 시 %02d 분";
+"panel_apply_button"="상태 적용";
+"panel_apply_noneed"="현재 상태";
+"panel_title"="상태 설정";
+
+//Charging
+"charging_view_title"="충전";
+"charging_view_in_statge_1"="고속 충전";
+"charging_view_in_statge_2"="연속 충전";
+"charging_view_in_statge_3"="세류 충전";
+"charging_view_time_hour_and_minutes"="%d 시 %02d 분";
+"charging_view_time_minutes"="%d 분";
+"charging_view_time_to_charge"="%@ 남음";
+"charging_view_charging_remain_time"="%@ 남은";
+"charging_view_complete_no_need"="배터리 완충됨,\r\n 충전할 필요 없음.";
+"charging_view_complete_normal"="배터리 중간,\r\n 충전할 수 있음.";
+"charging_view_complete_complete"="배터리 낮음,\r\n 완출할 수 있음.";
+"charging_view_time_to_complete"="완충 추정 시간:";
+"charging_view_complete_and_unplug"="충전이 완료되었습니다, 충전기를 빼주세요.";
+"charging_view_statge_1"="고속";
+"charging_view_statge_2"="연속";
+"charging_view_statge_3"="세류";
+
+"charging_view_state_1_description"="고속 충전: 80%에 달할 때까지 최대한 고속으로 충전합니다. 연연속 충전 단계까지 계속 충전해야 합니다.";
+"charging_view_state_2_description"="연속 충전: 배터리가 거의 충전됐을 때 100% 충전을 확실히 하기 위해 낮은 전류로 충전합니다. 세류 충전 단계까지 계속 충전해야 합니다.";
+"charging_view_state_3_description"="세류 충전: 배터리가 100% 충전됐을 때 배터리 수명연장을 위해 전류를 감소시켜 충전합니다.";
+
+//history
+"history_view_title"="기록";
+
+"Mon_"="월";
+"Tue_"="화";
+"Wed_"="수";
+"Thu_"="목";
+"Fri_"="금";
+"Sat_"="토";
+"Sun_"="일";
+
+"cal_title_datetime_format"="yyyy년 MM월 ";
+
+"history_tableview_header_datetime_format"="yyyy-MM-dd EEE";
+"history_good_charge_tip_msg"="Less than 20% complete three phase charge, once a month let the standby time more durable.";
+"history_normal_charge_tip_msg"="You can recharge battery whenever convenient, Partial Cycle will be prolong battery lifespan.";
+"history_bad_charge_tip_msg"="Limit recharging time to 6 hours per recharge. Please unplug the power when the battery is full.";
+
+"history_good_charge"="완전 충전";
+"history_normal_charge"="부분 충전";
+"history_bad_charge"="과충천";
+"today_no_record_description"="This day has not record!";
+
+//detail
+"detail_view_title"="정보";
+"detail_view_battery_title"="배터리";
+"detail_view_system_title"="시스템";
+
+"detail_view_device"="기본 정보";
+"detail_view_battery"="배터리 정보";
+"detail_view_wifi"="와이파이";
+"detail_view_cell"="2G/3G";
+"detail_view_system"="시스템 정보";
+"detail_view_hardware"="하드웨어 사양";
+
+"detial_view_memory_usage"="메모리 사용량";
+
+"detail_view_cpu_usage"="CPU 사용량";
+
+"detail_view_disk"="저장소";
+"detail_view_disk_usage"="사용중";
+"detail_view_disk_usage_detail"="사용중: %4.1f%% %4.1fGB";
+"detail_view_disk_free"="사용 가능";
+"detail_view_disk_free_detail"="사용 가능: %4.1f%% %4.1fGB";
+
+"detail_view_last_days"="마지막    일";
+"detail_view_last"="마지막";
+"detail_view_health_mah"="수명(mAh) ";
+"detail_view_health"="수명";
+"detail_view_temperature"= "온도";
+"detail_view_cycle"= "주기";
+
+"curve_not_enough_data"="충분한 데이타가 없음";
+
+"device_info_model"="장치 모델";
+"device_info_system_version"="운영체제";
+"device_info_name"="장치 이름";
+
+"device_info_serial"="시리얼";
+"device_info_max_capacity"="최대 용량";
+"device_info_current_capacity"="현재 용량";
+"device_info_amperage"="전류";
+"device_info_voltage"="전압";
+"device_info_bootVoltage"="부팅 전압";
+
+"device_info_wifi_mac_add"="MAC 주소";
+"device_info_wifi_ip_add"="IP 주소";
+"device_info_cell_carrier"="네트워크 사업자";
+"device_info_cell_ip"="IP 주소";
+"device_info_system_boottime"="부팅 일시";
+"device_info_system_runtime"="실행 시간";
+"device_info_system_runtime_format"="%d D %d H %d M";
+"device_info_no_network"="사용할 수 없음";
+"device_info_no_carrier"="사용할 수 없음";
+"device_info_jail_break_title"="탈옥";
+"device_info_is_jail_break"="예";
+"device_info_is_not_jail_break"="아니요";
+
+"pull_to_show_more"="자세히 보려면 위로 당김";
+"push_to_show_less"="자세히 보려면 아래로 당김";
+"release_to_show_more"="자세히 보려면 놓기";
+"release_to_show_less"="개요를 보려면 놓기";
+
+
+
+//setting
+
+"setting_view_title"="설정";
+
+"setting_view_panel"="전환 설정";
+"setting_view_panel_enabled"="상태 막대 사용";
+"setting_view_wee_enabled"="알림 센터 사용";
+"setting_view_wee_setting"="알림 센터 설정";
+"setting_view_panel_order"="사용자 설정";
+
+"setting_view_charge"="충전 설정";
+"setting_view_launch_app"="충전 자동 실행";
+"setting_view_complete_sound"="충전 종료 알림";
+"setting_view_night_slient"="야간 설정";
+
+"setting_view_disturb_description"="충전이 완료되도 \r\n 23:00 부터 7:00까지는 알리지 않습니다.";
+
+"setting_view_other"="키타 설정";
+"setting_view_sound"="탭 소리";
+"setting_view_clear_history"="충전 기록 삭제";
+"setting_view_eula"="개인 정보 보호";
+
+"nc_view_battery_enabled"="상태 사용";
+"nc_view_multi_enabled"="멀티태스킹 사용";
+"nc_view_multiline"="스타일 표시";
+"nc_view_one_line"="한줄";
+"nc_view_two_line"="두줄";
+
+"custom_button_show"="전환 표시";
+"custom_button_hide"="전환 표시 안 함";
+
+//intelligence
+"setting_view_intelligence"="지능적 절약";
+"setting_view_intelligence_setting"="지능적 절약 설정";
+
+"intelligence_setting_segment_lock"="일반";
+"intelligence_setting_segment_sleep"="재우기";
+"intelligence_setting_segment_lowbattery"="절전";
+
+"intelligence_setting_auto_background_setting"="배경";
+"intelligence_setting_auto_background"="배경 어플 자동 삭제";
+"intelligence_setting_auto_background_delay"="지연 시간";
+"intelligence_setting_auto_background_footer"="잠근 뒤 배경 어플을 지능적으로 삭제,\r\n 푸시는 영향 받지 않음. ";
+
+"intelligence_setting_auto_3g_setting"="네트워크";
+"intelligence_setting_auto_3g"="잠근 뒤 2G 전환";
+"intelligence_setting_auto_4g"="잠근 뒤 3G 전환";
+"intelligence_setting_auto_3g_delay"="지연 시간";
+"intelligence_setting_auto_3g_footer"="잠근 뒤 3G가 사용 중이면 \r\n 전력을 줄이기 위해 2G를 사용합니다. ";
+"intelligence_setting_auto_4g_footer"="잠근 뒤 4G가 사용 중이면 \r\n 전력을 줄이기 위해 3G를 사용합니다. ";
+
+"intelligence_setting_0_min"="확인";
+"intelligence_setting_1_min"="1 분";
+"intelligence_setting_5_min"="5 분";
+"intelligence_setting_10_min"="10 분";
+"intelligence_setting_30_min"="30 분";
+
+"intelligence_setting_low_battery_setting"="절전";
+"intelligence_setting_low_battery"="절전 사용";
+"intelligence_setting_low_battery_percent"="배터리 남은량";
+"intelligence_setting_low_battery_footer"="배터리가 얼마 남지 않으면 네트워트를 끕니다.\r\n 전화와 SMS는 영향을 받지 않습니다. ";
+
+"intelligence_setting_sleep_setting"="재우기";
+"intelligence_setting_sleep"="재우기 사용";
+"intelligence_setting_sleep_duration"="재울 시간";
+"intelligence_setting_sleep_out_mode"="깨울 시간";
+
+"intelligence_setting_mode_0"="외부";
+"intelligence_setting_mode_1"="내부";
+"intelligence_setting_mode_2"="마지막";
+
+"To"="-";
+
+//appdelegate
+"software_name"="BatteryDoctorPro";
+"respiring_msg"="운영환경 설정 중, 리스프링된 뒤 마무리됩니다.";
+"daemon_fail_alert"="검출 서비스을 시작하지 않았습니다, 정상적인 서비스를 보장하기 위해 직접 %@ 를 시작해 주세요. 그렇지 않으면 app@ijinshan.com 로 메일 주세요.";
+"daemon_fail_alert_cancel"="확인";
+"daemon_fail_alert_sendfeedback"="오류 보고";
+
+//
+"clean_history_title"="충전 기록 삭제";
+"clean_history_msg_body"="모든 충전 기록을 삭제할까요?";
+"alertview_cancel"="취소";
+"alertview_ok"="확인";
+
+//feedback
+"feed_back_body_text"="도와 주셔서 감사합니다!";
+"feed_back_title"="BatteryDoctorPro %@ - 질문과 답변";
+"feed_back_sending"="메일 보내기";
+"feed_back_canceled"="메일 취소";
+"feed_back_saved"="메일 저장됨";
+"feed_back_faild"="메일 전송 실패";
+
+
+//rank
+"rankview_view_title"="순위";
+"usage_level"="%d 수준";
+"usage_min_less"="%d 초";
+"usage_min"="%d 분";
+"usage_hour"="%d 시";
+"usage_day"="%d 일";
+"usage_second_ago"="%d 초전";
+"usage_min_ago"="%d 분전";
+"usage_hour_ago"="%d 시전";
+"usage_day_ago"="%d 일전";
+"usage_mah"="%d mAh";
+"usage_left_title_apprank"="앱 이름";
+"rank_24_hours"="   24시";
+"rank_all_records"="     사용";
+"rank_count_start"=" 실행수";
+"rank_time_starttime"="  실행시";
+"rank_close_app"="닫기";
+"rank_uninstall_app"="삭제";
+"usage_right_title_apprank"="수준";
+
+"rank_uninstall_app_title"="\"%@\" 삭제";
+"rank_uninstall_app_body"="\"%@\"를 삭제하면 모든 관련 데이타도 삭제됩니다.";
+"rank_apple_start_count"="%d 번";
+"rank_app_bg_task_flag"="배경";
+"rand_nodate_description"="We are working\r\n You can check it later.";
