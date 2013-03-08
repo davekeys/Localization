@@ -29,6 +29,7 @@ KBatteryDoctorPro Translators
 * Korean/한국어 - DoA (doax)
 * Turkish/Türkçe - jokedr
 * Italian/Italiano - trexanir (eXKey)
+* Russian/русский - Lotem_KW (lotemkw)
 
 Cydia Translators
 ============
