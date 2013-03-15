@@ -1,0 +1,126 @@
+/* 
+ Localizable.strings
+ KBPanel
+
+I do apologize about the plain file. I was having the worst time trying to upload the folder from my computer through various Github clients.. decided to just post the file instead. will work more on it. Trying to get these translations perfect!
+ 
+ Created by bo lin on 12-10-30.
+ Copyright (c) 2012年 iJinShan. All rights reserved.
+
+Russian localization by Julian Coleman (lotemkw)
+
+ Note from Karen: This is not final. I still need to do further testing to make some of these text strings actually fit in the UI.
+
+ The translations are also not of final quality (further revision needs to be done to some lines, using the Chinese translation)
+ */
+
+"KBPanelFont"="SegoeWP";
+"KBPanelBoldFont"="SegoeWP-Bold";
+"KBPanelFontLatin"="SegoeWP";
+"KBPanelBoldFontLatin"="SegoeWP-Bold";
+
+"PowerModeCustom"="На Заказ";
+"PowerMode0"="За пределами";
+"PowerMode1"="Внутри";
+"PowerMode2"="Спать";
+"RemainTime"="%@ Часов %@ Мин";
+"PowerModeChanged"="Изменен";
+
+"KBPanelFreeMemory"="бесплатно РАМ"; //consider switching this term to RAM
+"KBPanelUsedMemory"="Исп. РАМ";
+"Button_LTE"="LTE";
+"Button_4G"="4G";
+"Button_3G"="3G";
+"Button_Airplane"="Авиарежим";
+"Button_AutoLock"="Автоблокировка";
+"Button_Backlight"="Яркость";
+"Button_Bluetooth"="Bluetooth";
+"Button_ClearBadge"="Удалять Badges";
+"Button_Data"="Данных";
+"Button_Flashlight"="Фонар";
+"Button_HomeButton"="Домой";
+"Button_KillBackground"="Убийств Применения";
+"Button_Location"="Геолокация";
+"Button_Mute"="звуки";
+"Button_Reboot"="Перезапуск";
+"Button_Respring"="Respring";
+"Button_Rotation"="вращение";
+"Button_Shutdown"="выключения";
+"Button_SleepButton"="Блокировка экрана";
+"Button_Uicache"="ремонт иконки";
+"Button_VPN"="VPN";
+"Button_WiFi"="Wi-Fi";
+"Button_More"="более";
+
+
+"Alert_3G_On"="3G On";
+"Alert_3G_Off"="3G Off";
+"Alert_4G_On"="4G On";
+"Alert_4G_Off"="4G Off";
+"Alert_LTE_On"="LTE On";
+"Alert_LTE_Off"="LTE Off";
+"Alert_Airplane_On"="Airplane On";
+"Alert_Airplane_Off"="Airplane Off";
+"Alert_AutoLock_On"="%d minutes"; //"Auto-Lock after %d minutes" doesn't fit.
+"Alert_AutoLock_Off"="Never Auto-Lock";
+"Alert_Bluetooth_On"="Bluetooth On";
+"Alert_Bluetooth_Off"="Bluetooth Off";
+"Alert_ClearBadge_Count"="Cleared %d badges";
+"Alert_ClearBadge_Empty"="No badges"; //"No badges to be cleared" doesn't fit.
+"Alert_Data_On"="Data On";
+"Alert_Data_Off"="Data Off";
+"Alert_Flashlight_On"="Flashlight On";
+"Alert_Flashlight_Off"="Flashlight Off";
+"Alert_KillBackground_Count"="Closed %d apps";
+"Alert_KillBackground_Empty"="No apps to be closed";
+"Alert_Location_On"="Location On";
+"Alert_Location_Off"="Location Off";
+"Alert_Mute_On"="Mute";
+"Alert_Mute_Off"="Sound";
+"Alert_Rotation_On"="Lock Rotation";
+"Alert_Rotation_Off"="Unlock Rotation";
+"Alert_Uicache_Pre"="Please wait...";
+"Alert_Uicache_Post"="App icons fixed";
+"Alert_VPN_On"="VPN On";
+"Alert_VPN_Off"="VPN Off";
+"Alert_VPN_NoConnection"="No active VPN";
+"Alert_WiFi_On"="WLAN On";
+"Alert_WiFi_Off"="WLAN Off";
+"LockSwitch_SlideToRespring"="slide to respring";
+"LockSwitch_SlideToReboot"="slide to reboot";
+"LockSwitch_SlideToShutdown"="slide to power off";
+
+"ChargingView_RemainTime_HourAndMinutes"="%d hours and %02d minutes left until full";
+"ChargingView_RemainTime_Minutes"="%d minutes left until full"; //the more correct translation would end up making it go off the screen.
+"ChargingView_RemainTime_Complete"="Charging has completed.";
+"ChargingView_Disconnect"="Please disconnect.";
+
+"ChargingView_State_1"="High-speed charging";
+"ChargingView_State_2"="Continuation charging";
+"ChargingView_State_3"="Trickle charging";
+
+"Uninstall_Alert_Title"="Delete “%@”";
+"Uninstall_Alert_Body"="Deleting “%@” will be finished after respringing.";
+
+"ModeSetting"="Settings"; //"Edit Presets" or just "Edit" would probably work better
+"ModeRemainTime"="%@ hours %@ minutes";
+
+"Intelligence_Into_Percent_Title"=" s Later enabled \"Low-power Saving\""; //...?
+"Intelligence_Into_Percent_Body"="Data turned off, Wi-Fi turned off. Phone and Messages can still be used."; //no context
+
+"Intelligence_Into_Sleep_Title"=" s Later Into \"Sleep Mode\""; //need to figure out where these are used.
+
+"Intelligence_Cancel"="Cancel";
+"Intelligence_Sure"="Sure";
+"Intelligence_Delay"="Delay";
+
+"home_view_change_airplane_on"="Airplane Mode has been turned on. Phone and Messages cannot be used.";
+"home_view_change_airplane_off"="Airplane Mode has been turned off. Phone and Messages can now be used.";
+"home_view_change_data_on"="Data On";
+"home_view_change_data_off"="Data Off";
+"home_view_change_wifi_on"=", WLAN On";
+"home_view_change_wifi_off"=", WLAN Off";
+
+"PopClickHere"="Tap to save power"; //This is that little dropdown thing that appears on new installs of KBDP, but... um. what?
+
+"No_3G_alert"="Switching 3G will cause signal problems, recovery method:\r\n\"Settings\" - \"Carrier\", Turn off \"Automatic\" and wait for the search completed, select carrier of SIM Card then turn on \"Automatic\"."; //needs revision from chinese TL
