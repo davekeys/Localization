@@ -19,7 +19,7 @@ Russian localization by Julian Coleman (lotemkw), Nikita Perin
 "KBPanelFontLatin"="SegoeWP";
 "KBPanelBoldFontLatin"="SegoeWP-Bold";
 
-"PowerModeCustom"="На Заказ";
+"PowerModeCustom"="Особый";
 "PowerMode0"="На улице";
 "PowerMode1"="В здании";
 "PowerMode2"="Сон";
@@ -79,43 +79,43 @@ Russian localization by Julian Coleman (lotemkw), Nikita Perin
 "Alert_Mute_Off"="Sound";
 "Alert_Rotation_On"="Блок. ориентацию";
 "Alert_Rotation_Off"="Разблок. ориентацию";
-"Alert_Uicache_Pre"="Пожалуйста подождите...";
+"Alert_Uicache_Pre"="Пожалуйста, подождите...";
 "Alert_Uicache_Post"="App icons fixed";
 "Alert_VPN_On"="VPN ВКЛ";
 "Alert_VPN_Off"="VPN ВЫКЛ";
 "Alert_VPN_NoConnection"="Нет активной VPN";
 "Alert_WiFi_On"="WLAN ВКЛ";
 "Alert_WiFi_Off"="WLAN ВЫКЛ";
-"LockSwitch_SlideToRespring"="респринг";
-"LockSwitch_SlideToReboot"="перезагрузка";
-"LockSwitch_SlideToShutdown"="выключение";
+"LockSwitch_SlideToRespring"="Респринг";
+"LockSwitch_SlideToReboot"="Перезагрузка";
+"LockSwitch_SlideToShutdown"="Выключение";
 
-"ChargingView_RemainTime_HourAndMinutes"="%d hours and %02d minutes left until full";
-"ChargingView_RemainTime_Minutes"="%d minutes left until full"; //the more correct translation would end up making it go off the screen.
-"ChargingView_RemainTime_Complete"="Charging has completed.";
-"ChargingView_Disconnect"="Please disconnect.";
+"ChargingView_RemainTime_HourAndMinutes"="До полной зарядки осталось %d часов и %02d минут";
+"ChargingView_RemainTime_Minutes"="До полной разядки осталось %d минут"; //the more correct translation would end up making it go off the screen.
+"ChargingView_RemainTime_Complete"="Зарядка завершена.";
+"ChargingView_Disconnect"="Пожалуйста, отключите питание";
 
-"ChargingView_State_1"="High-speed charging";
-"ChargingView_State_2"="Continuation charging";
-"ChargingView_State_3"="Trickle charging";
+"ChargingView_State_1"="Быстрая";
+"ChargingView_State_2"="Долгая";
+"ChargingView_State_3"="Капельная";
 
-"Uninstall_Alert_Title"="Delete “%@”";
-"Uninstall_Alert_Body"="Deleting “%@” will be finished after respringing.";
+"Uninstall_Alert_Title"="Удаление “%@”";
+"Uninstall_Alert_Body"="Удаление “%@” будет завершено после респринга.";
 
-"ModeSetting"="Settings"; //"Edit Presets" or just "Edit" would probably work better
-"ModeRemainTime"="%@ hours %@ minutes";
+"ModeSetting"="Настройки"; //"Edit Presets" or just "Edit" would probably work better
+"ModeRemainTime"="%@ часов %@ минут";
 
 "Intelligence_Into_Percent_Title"=" s Later enabled \"Low-power Saving\""; //...?
 "Intelligence_Into_Percent_Body"="Data turned off, Wi-Fi turned off. Phone and Messages can still be used."; //no context
 
 "Intelligence_Into_Sleep_Title"=" s Later Into \"Sleep Mode\""; //need to figure out where these are used.
 
-"Intelligence_Cancel"="Cancel";
+"Intelligence_Cancel"="Отмена";
 "Intelligence_Sure"="Sure";
 "Intelligence_Delay"="Delay";
 
-"home_view_change_airplane_on"="Airplane Mode has been turned on. Phone and Messages cannot be used.";
-"home_view_change_airplane_off"="Airplane Mode has been turned off. Phone and Messages can now be used.";
+"home_view_change_airplane_on"="Авиарежим включен. Звонки и смс будут не доступны.";
+"home_view_change_airplane_off"="Авиарежим выключен. Звонки и смс будут доступны.";
 "home_view_change_data_on"="Данные ВКЛ";
 "home_view_change_data_off"="Данные ВЫКЛ";
 "home_view_change_wifi_on"=", WLAN ВКЛ";
